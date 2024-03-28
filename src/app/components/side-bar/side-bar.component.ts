@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, TemplateRef, Input, inject } from '@angular/core';
+import { NgbDatepickerModule, NgbOffcanvas, OffcanvasDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import { MainComponent } from '../main/main.component';
 
 @Component({
   selector: 'app-side-bar',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./side-bar.component.scss']
 })
 export class SideBarComponent {
-
+  constructor() {}
 }

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
+  item!: boolean;
 
+  addItem(newItem: boolean) {
+    this.item = newItem;
+  }
 }

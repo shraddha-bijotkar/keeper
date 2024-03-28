@@ -1,1 +1,12 @@
-<p>main works!</p>
+
+<div>
+    <app-nav-bar  (newItemEvent)="addItem($event)" [containerRef]="bottom"></app-nav-bar>
+    <section class="main">
+        <div #bottom class="d-flex">
+            <div [style.margin-left]="item ? '10%' : '0'"  class="rhs">
+                <app-input></app-input>
+                <app-notes></app-notes>
+            </div>
+        </div>
+    </section>
+</div>
