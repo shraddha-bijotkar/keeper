@@ -1,6 +1,4 @@
-import { Component, TemplateRef, Input, inject } from '@angular/core';
-import { NgbDatepickerModule, NgbOffcanvas, OffcanvasDismissReasons } from '@ng-bootstrap/ng-bootstrap';
-import { MainComponent } from '../main/main.component';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-side-bar',

@@ -1,1 +1,28 @@
-<p class="p-2">input works!</p>
+<div class="modal-header">
+    <h4 class="modal-title">Hi there!</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+</div>
+<div class="modal-body">
+    <section class="p-2" *ngIf="isClicked">
+        <div class="card border-secondary">
+            <div class="card-body p-2">
+                <form [formGroup]="myForm" (ngSubmit)="onEdit(myForm)">
+                    <div class="mb-2">
+                        <input class="form-control text-white bg-dark border-0" formControlName="noteTitle" type="text" value="{{openedNote.noteTitle}}" aria-label="default input example">
+                    </div>
+                    <div class="mb-2">
+                        <input class="form-control text-white bg-dark border-0" formControlName="noteBody" type="text" value="{{openedNote.noteBody}}" aria-label="default input example">
+                    </div>
+                    <!-- <button class="btn btn-dark" id="bgColor" type="button"><i class="fa fa-eyedropper fa-lg" aria-hidden="true"></i></button> -->
+                    <!-- <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color"> -->
+                    <button class="btn btn-dark" type="submit">Close</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
+</div>
+
+

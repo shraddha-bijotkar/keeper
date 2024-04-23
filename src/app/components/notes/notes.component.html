@@ -1,1 +1,57 @@
-<p>notes works!</p>
+
+<section class="p-2">
+    <div>
+        <h3 class="text-white">Other Notes</h3>
+    </div>
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let note of allNotes | search:searchText">
+          <div [ngStyle]="{'background-color':note.bgColor}" [ngClass]="note.bgColor == '#212529' ? 'card border-secondary bg-dark text-white' : 'card border-secondary text-white'" #input (mouseover)="note.hover=true" (mouseleave)="note.hover=false" >
+            <div class="card-body p-2" [ngStyle]="{'background': ' url(' + note.bgImage  + ') no-repeat 0 0','background-size': '100%'}" >
+                <div class="row">
+                    <h5 class="card-title col-10">{{note.noteTitle}}</h5>
+                    <button [ngStyle]="{'visibility': note.hover ? '' : 'hidden'}"  class="btn btn-circle col-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pin"><i class="fa fa-thumb-tack fa-lg" aria-hidden="true"></i> </button>
+                </div>
+                <p class="card-text">{{note.noteBody}}</p>
+
+                <div>
+                    <!-- <p class="m-3 mt-0 col">Created {{currentDate == note.createdAt.toLocaleDateString() ? 'Today at' + note.createdAt.toLocaleTimeString() : note.createdAt.toLocaleDateString() + ' at ' + note.createdAt.toLocaleTimeString()}}</p> -->
+                    <p class="m-2 mt-0 col">Created at {{note.createdAt}}</p>
+                </div>
+                <div [ngStyle]="{'visibility': note.hover ? '' : 'hidden'}" >
+                    <div class="mt-0 d-flex justify-content-around" >
+                        <button class="btn btn-circle not-allowed me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Remid me"><i class="fa fa-bell" aria-hidden="true"></i> </button>
+                        <button class="btn btn-circle not-allowed me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Collaborator"><i class="fa fa-user-plus" aria-hidden="true"></i></button>
+                        <button (click)="openColors=!openColors" class="btn btn-circle me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Background colour"><i class="fa fa-eyedropper" aria-hidden="true"></i></button>
+                        
+                        <button (click)="openImages=!openImages" class="btn btn-circle me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Background image"><i class="fa fa-image" aria-hidden="true"></i></button>
+                        <button class="btn btn-circle me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="More"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+                        <button class="btn btn-circle not-allowed me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Undo"><i class="fa fa-undo" aria-hidden="true"></i></button>
+                        <button class="btn btn-circle not-allowed me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Redo"><i class="fa fa-repeat" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            
+                <div class="d-flex flex-row mt-2">
+                    <ng-container  *ngIf="openColors">
+                        <div class="col"  *ngFor="let color of bgColors | keyvalue">
+                            <button class="btn btn-dark btn-circle me-2" [ngStyle]="{'background-color': color.key}" (click)="setColor(color.value, note)"></button>
+                        </div>
+                        
+                    </ng-container>
+                    
+                </div> 
+                <div class="d-flex flex-row mt-2">
+                    <ng-container *ngIf="openImages">
+                        <div class="col"  *ngFor="let img of bgImages | keyvalue">
+                            <button class="btn btn-dark btn-circle me-2" [ngStyle]="{'background': ' url(' + img.value  + ') no-repeat 0 0', 'background-size': '100%'}" (click)="setImage(img.value, note)"></button>
+                        </div>
+                    </ng-container>
+                </div>
+            
+            </div>
+            
+          </div>
+        </div>
+    </div>
+
+</section>
+

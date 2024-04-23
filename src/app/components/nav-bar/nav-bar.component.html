@@ -1,17 +1,16 @@
-<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+<nav class="navbar bg-dark" data-bs-theme="dark">
         <div>
-          <button class="btn btn-dark" type="button" (click)="open(flag)" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="btn btn-dark btn-circle" type="button" (click)="open(flag)" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
           </button>
           <a class="navbar-brand">Keeper</a>
         </div>
-    
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+        <form class="d-flex" role="search" [formGroup]="searchForm">
+          <input class="form-control bg-secondary me-2" type="search" placeholder="Search" aria-label="Search" formControlName="search">
+          <button class="btn btn-secondary" type="submit" (click)="search()"><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
         </form>
         <div class="d-none d-sm-block">
-            <button type="button" class="btn btn-dark me-2" aria-current="page">Home</button>
-            <button type="button" class="btn btn-dark me-2" aria-current="page">Home</button>
+            <button type="button" class="btn btn-dark btn-circle me-2" aria-current="page">Home</button>
+            <button type="button" class="btn btn-dark btn-circle me-2" aria-current="page">Home</button>
         </div>
 </nav>

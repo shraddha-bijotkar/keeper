@@ -3,3 +3,9 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+  }

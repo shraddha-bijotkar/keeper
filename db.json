@@ -1,0 +1,760 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "noteTitle": "Title 1",
+      "noteBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "createdAt": "Sun Mar 31 2024 16:57:46 GMT+0530 (India Standard Time)",
+      "pinned": true,
+      "archived": false,
+      "trashed": false,
+      "bgColor": "#FFC0CB",
+      "bgImage": "https://i.pinimg.com/736x/c9/c1/8b/c9c18b66009853207fd8f1fe53e60581.jpg",
+      "hover": false
+    },
+    {
+      "note": {
+        "id": "2",
+        "noteTitle": "New title 2",
+        "noteBody": "New Note 2 body",
+        "createdAt": "Sun Mar 31 2024 16:57:46 GMT+0530 (India Standard Time)",
+        "pinned": false,
+        "archived": true,
+        "trashed": false,
+        "hover": true
+      },
+      "id": "2"
+    },
+    {
+      "note": {
+        "id": "3",
+        "noteTitle": "Title 2",
+        "noteBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "createdAt": "Sun Mar 31 2024 16:57:46 GMT+0530 (India Standard Time)",
+        "pinned": false,
+        "archived": false,
+        "trashed": true,
+        "hover": true
+      },
+      "id": "3"
+    },
+    {
+      "note": {
+        "id": "4",
+        "noteTitle": "Title 4",
+        "noteBody": "Note 4 body",
+        "createdAt": "Sun Mar 31 2024 16:57:46 GMT+0530 (India Standard Time)",
+        "pinned": false,
+        "archived": false,
+        "trashed": true,
+        "hover": false
+      },
+      "id": "4"
+    },
+    {
+      "note": {
+        "id": "5",
+        "noteTitle": "Panchwa title ",
+        "noteBody": "Note 5 body",
+        "createdAt": "Sun Mar 31 2024 16:57:46 GMT+0530 (India Standard Time)",
+        "pinned": true,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#5b2245",
+        "bgImage": "/assets/image-3_ph.svg"
+      },
+      "id": "5"
+    },
+    {
+      "note": {
+        "id": "0c4413d0-4c44-419d-bde2-5e04dbaf95d8",
+        "noteTitle": "Title",
+        "noteBody": "First notewa.",
+        "createdAt": "2024-03-31T17:46:51.681Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": true,
+        "hover": false,
+        "bgColor": "#635d19",
+        "bgImage": ""
+      },
+      "id": "0c4413d0-4c44-419d-bde2-5e04dbaf95d8"
+    },
+    {
+      "note": {
+        "id": "42a40d8b-1e18-4680-a8bc-1c7a8c3e36ad",
+        "noteTitle": "My to-do",
+        "noteBody": "1. to-do 1 2. to-do 2",
+        "createdAt": "2024-04-05T12:43:40.334Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": true,
+        "hover": false,
+        "bgColor": "#635d19",
+        "bgImage": ""
+      },
+      "id": "42a40d8b-1e18-4680-a8bc-1c7a8c3e36ad"
+    },
+    {
+      "note": {
+        "note": {
+          "id": "16f95ff2-0029-4b87-97e1-e51accef19ed",
+          "noteTitle": "Things to buy",
+          "noteBody": "aaaaaaaa",
+          "createdAt": "2024-04-05T12:57:34.605Z",
+          "pinned": false,
+          "archived": false,
+          "trashed": true,
+          "hover": false,
+          "bgColor": "#635d19",
+          "bgImage": ""
+        },
+        "id": "16f95ff2-0029-4b87-97e1-e51accef19ed",
+        "hover": false,
+        "trashed": true
+      },
+      "id": "16f95ff2-0029-4b87-97e1-e51accef19ed"
+    },
+    {
+      "note": {
+        "id": "8d16738f-c590-405e-bee2-dd5d18297edb",
+        "noteTitle": "fourth",
+        "noteBody": "Note content",
+        "createdAt": "2024-04-05T14:20:47.787Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": true,
+        "hover": true,
+        "bgColor": "#635d19",
+        "bgImage": ""
+      },
+      "id": "8d16738f-c590-405e-bee2-dd5d18297edb"
+    },
+    {
+      "note": {
+        "id": "85bed37d-3f52-4592-a8dd-776f7fcd148f",
+        "noteTitle": "aa",
+        "noteBody": "aaa",
+        "createdAt": "2024-04-05T14:23:51.074Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": true,
+        "hover": false,
+        "bgColor": "#635d19",
+        "bgImage": ""
+      },
+      "id": "85bed37d-3f52-4592-a8dd-776f7fcd148f"
+    },
+    {
+      "note": {
+        "id": "af03b8ad-e368-4d0b-b142-0edd1f2ce1df",
+        "noteTitle": "bb",
+        "noteBody": "bbbb",
+        "createdAt": "2024-04-05T14:25:20.510Z",
+        "pinned": false,
+        "archived": true,
+        "trashed": false,
+        "hover": false,
+        "bgColor": "#635d19",
+        "bgImage": ""
+      },
+      "id": "af03b8ad-e368-4d0b-b142-0edd1f2ce1df"
+    },
+    {
+      "note": {
+        "id": "7012e055-97a5-4609-a42e-c8dabc4224ea",
+        "noteTitle": "cc abcc",
+        "noteBody": "new ccc",
+        "createdAt": "2024-04-05T14:25:35.441Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#345920",
+        "bgImage": ""
+      },
+      "id": "7012e055-97a5-4609-a42e-c8dabc4224ea"
+    },
+    {
+      "note": {
+        "id": "23f67ef0-e275-4fb5-8d32-43aa1f363187",
+        "noteTitle": "dd",
+        "noteBody": "ddd",
+        "createdAt": "2024-04-05T14:25:59.362Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": true,
+        "hover": false,
+        "bgColor": "#635d19",
+        "bgImage": ""
+      },
+      "id": "23f67ef0-e275-4fb5-8d32-43aa1f363187"
+    },
+    {
+      "note": {
+        "id": "527f89bc-ca5a-4eca-b7fd-65af2e7271d8",
+        "noteTitle": "aaaaaaaaa",
+        "noteBody": "aaaaaaaaaaaaaaaa",
+        "createdAt": "2024-04-05T16:07:19.527Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#635d19",
+        "bgImage": "/assets/image-3_ph.svg"
+      },
+      "id": "527f89bc-ca5a-4eca-b7fd-65af2e7271d8"
+    },
+    {
+      "note": {
+        "id": "cc822ebc-d17c-4031-9bee-69b3ec4c1442",
+        "noteTitle": "Heyaaaaaaa",
+        "noteBody": "Hola Gola",
+        "createdAt": "2024-04-05T18:23:07.037Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": false,
+        "bgColor": "#635d19",
+        "bgImage": ""
+      },
+      "id": "cc822ebc-d17c-4031-9bee-69b3ec4c1442"
+    },
+    {
+      "id": "32a8a4ee-ad23-4957-bb18-46b9ee0b9dd3",
+      "noteTitle": "abcd",
+      "noteBody": "abcdef",
+      "createdAt": "2024-04-06T17:15:06.523Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#635d19",
+      "bgImage": ""
+    },
+    {
+      "id": "347fb22b-873a-4aa6-b6db-79ba8f7fa087",
+      "noteTitle": "abcd",
+      "noteBody": "efg",
+      "createdAt": "2024-04-06T17:34:29.916Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#635d19",
+      "bgImage": ""
+    },
+    {
+      "id": "9c9a84e6-a637-412b-bc63-38a6f86033f0",
+      "noteTitle": "no cc",
+      "noteBody": "no ccc",
+      "createdAt": "2024-04-06T17:34:53.444Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#635d19",
+      "bgImage": ""
+    },
+    {
+      "id": "cc45a962-bf38-4644-96f9-283a3d5543a7",
+      "noteTitle": "New note",
+      "noteBody": "Okay bruh..",
+      "createdAt": "2024-04-08T19:20:32.871Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#635d19",
+      "bgImage": ""
+    },
+    {
+      "id": "61bfd952-b3b1-4db1-8dea-06452d498f01",
+      "noteTitle": "New Note",
+      "noteBody": "Newwwwwwwwwwwww",
+      "createdAt": "2024-04-09T18:09:30.421Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#fedbd9",
+      "bgImage": ""
+    },
+    {
+      "note": {
+        "id": "fc9eeb80-348a-4601-a02b-ead1f5db6ec0",
+        "noteTitle": "abc",
+        "noteBody": "abcd",
+        "createdAt": "2024-04-12T14:41:15.139Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#635d19",
+        "bgImage": "/assets/image-5_ph.svg"
+      },
+      "id": "fc9eeb80-348a-4601-a02b-ead1f5db6ec0"
+    },
+    {
+      "note": {
+        "id": "5dd63bd0-aaf4-4934-8cce-9e38d8640aaf",
+        "noteTitle": "hm",
+        "noteBody": "hmmm",
+        "createdAt": "2024-04-12T14:43:31.369Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#635d19",
+        "bgImage": "/assets/image-1_ph.svg"
+      },
+      "id": "5dd63bd0-aaf4-4934-8cce-9e38d8640aaf"
+    },
+    {
+      "id": "c5e85251-057b-43c2-a184-478ce3250619",
+      "noteTitle": "a",
+      "noteBody": "a",
+      "createdAt": "2024-04-12T18:12:56.373Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#635d19",
+      "bgImage": ""
+    },
+    {
+      "id": "770dcdd1-f63b-4277-91c3-f36d1714c860",
+      "noteTitle": "one",
+      "noteBody": "two",
+      "createdAt": "2024-04-12T18:26:15.524Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#635d19",
+      "bgImage": ""
+    },
+    {
+      "id": "cb36a7e7-b8cd-4f49-beb5-97f4c0bed529",
+      "noteTitle": "z",
+      "noteBody": "z",
+      "createdAt": "2024-04-12T18:26:46.103Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#635d19",
+      "bgImage": ""
+    },
+    {
+      "note": {
+        "id": "abca397c-29ca-4dc4-b53e-56f4c8c57504",
+        "noteTitle": "m",
+        "noteBody": "m",
+        "createdAt": "2024-04-12T18:32:46.791Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#442f19",
+        "bgImage": ""
+      },
+      "id": "abca397c-29ca-4dc4-b53e-56f4c8c57504"
+    },
+    {
+      "id": "9239ff4c-5b1c-4961-a1a0-0a9899ef8de3",
+      "noteTitle": "s",
+      "noteBody": "s",
+      "createdAt": "2024-04-12T18:37:16.491Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#442f19",
+      "bgImage": ""
+    },
+    {
+      "id": "69e6a96d-2ad8-4d60-bf73-59e4d328a577",
+      "noteTitle": "last",
+      "noteBody": "last",
+      "createdAt": "2024-04-12T18:41:23.286Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#614a19",
+      "bgImage": ""
+    },
+    {
+      "note": {
+        "id": "0768c440-558b-441e-885f-4ed633c9b747",
+        "noteTitle": "aaahaaa",
+        "noteBody": "heeeeha",
+        "createdAt": "2024-04-12T18:44:12.921Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": true,
+        "hover": true,
+        "bgColor": "#635d19",
+        "bgImage": ""
+      },
+      "id": "0768c440-558b-441e-885f-4ed633c9b747"
+    },
+    {
+      "note": {
+        "id": "07d0fa14-3f56-4458-b713-a40d800e9109",
+        "noteTitle": "a",
+        "noteBody": "b",
+        "createdAt": "2024-04-12T18:44:38.941Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#345920",
+        "bgImage": ""
+      },
+      "id": "07d0fa14-3f56-4458-b713-a40d800e9109"
+    },
+    {
+      "note": {
+        "id": "58b3843c-e5e0-4215-8448-82514a39c5ab",
+        "noteTitle": "s",
+        "noteBody": "s",
+        "createdAt": "2024-04-12T18:45:06.274Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": true,
+        "hover": true,
+        "bgColor": "#635d19",
+        "bgImage": ""
+      },
+      "id": "58b3843c-e5e0-4215-8448-82514a39c5ab"
+    },
+    {
+      "note": {
+        "id": "606d2a35-45ac-4e05-8852-bbde8d85c550",
+        "noteTitle": "s",
+        "noteBody": "d",
+        "createdAt": "2024-04-12T18:45:20.741Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": true,
+        "hover": true,
+        "bgColor": "#635d19",
+        "bgImage": ""
+      },
+      "id": "606d2a35-45ac-4e05-8852-bbde8d85c550"
+    },
+    {
+      "id": "0e61dd1b-ca07-4453-851f-228f7d2fea80",
+      "noteTitle": "d",
+      "noteBody": "d",
+      "createdAt": "2024-04-12T18:45:33.443Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#1e3a5f",
+      "bgImage": ""
+    },
+    {
+      "id": "4ac05c3a-f696-47fa-b17c-548c3423c0f4",
+      "noteTitle": "q",
+      "noteBody": "q",
+      "createdAt": "2024-04-12T18:47:58.535Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#442f19",
+      "bgImage": ""
+    },
+    {
+      "note": {
+        "id": "e9ec0e14-6338-44fd-a6c4-05061f04e3d2",
+        "noteTitle": "az",
+        "noteBody": "z",
+        "createdAt": "2024-04-12T18:48:11.033Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#442f19",
+        "bgImage": ""
+      },
+      "id": "e9ec0e14-6338-44fd-a6c4-05061f04e3d2"
+    },
+    {
+      "id": "da316212-db86-4b74-89a2-736d87b422cf",
+      "noteTitle": "new",
+      "noteBody": "new",
+      "createdAt": "2024-04-13T07:54:57.013Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#635d19",
+      "bgImage": ""
+    },
+    {
+      "id": "caae0541-f8ee-449f-a0d2-ebefa861c56f",
+      "noteTitle": "old",
+      "noteBody": "old",
+      "createdAt": "2024-04-13T07:55:18.354Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#635d19",
+      "bgImage": ""
+    },
+    {
+      "id": "ca4d967f-18b7-4494-986d-cd617d12314b",
+      "noteTitle": "lol",
+      "noteBody": "lol",
+      "createdAt": "2024-04-13T07:55:56.009Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#635d19",
+      "bgImage": ""
+    },
+    {
+      "id": "d500ee54-7ee9-435b-81a3-f58941dc3d68",
+      "noteTitle": "q",
+      "noteBody": "q",
+      "createdAt": "2024-04-13T07:57:43.820Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#635d19",
+      "bgImage": ""
+    },
+    {
+      "id": "8c4301ad-553b-4fcc-ae9e-d90eacabb18f",
+      "noteTitle": "x",
+      "noteBody": "y",
+      "createdAt": "2024-04-13T07:58:26.490Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#212529",
+      "bgImage": ""
+    },
+    {
+      "id": "62f3dc9a-f632-460b-9927-a93120011870",
+      "noteTitle": "a",
+      "noteBody": "v",
+      "createdAt": "2024-04-13T09:38:36.972Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#442f19"
+    },
+    {
+      "id": "06acf18f-c687-41a4-b8ea-b440a63084fd",
+      "noteTitle": "z",
+      "noteBody": "z",
+      "createdAt": "2024-04-13T09:40:49.328Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "/assets/image-3.svg"
+    },
+    {
+      "id": "ebfcd36e-6461-4e27-836d-5a47d286dd32",
+      "noteTitle": "m",
+      "noteBody": "n",
+      "createdAt": "2024-04-13T10:39:38.440Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#212529",
+      "bgImage": "https://i.pinimg.com/736x/c9/c1/8b/c9c18b66009853207fd8f1fe53e60581.jpg"
+    },
+    {
+      "id": "26b6c66e-33b3-48b3-a5f4-002f0cfe3510",
+      "noteTitle": "n",
+      "noteBody": "m",
+      "createdAt": "2024-04-13T10:39:58.442Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#614a19",
+      "bgImage": "https://i.pinimg.com/736x/c9/c1/8b/c9c18b66009853207fd8f1fe53e60581.jpg"
+    },
+    {
+      "id": "6c19fb3d-60e1-4c9c-ab5d-3b00804dbeed",
+      "noteTitle": "n",
+      "noteBody": "n",
+      "createdAt": "2024-04-13T10:54:43.167Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#212529",
+      "bgImage": ""
+    },
+    {
+      "id": "0e0bf9e5-76bc-4492-a1d5-fd0c8c64fd5d",
+      "noteTitle": "v",
+      "noteBody": "n",
+      "createdAt": "2024-04-13T10:57:24.111Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#212529",
+      "bgImage": "https://i.pinimg.com/736x/c9/c1/8b/c9c18b66009853207fd8f1fe53e60581.jpg"
+    },
+    {
+      "note": {
+        "id": "970a8a9c-8af0-45b3-ad0b-ccc44c15e03a",
+        "noteTitle": "b",
+        "noteBody": "b",
+        "createdAt": "2024-04-13T10:58:07.535Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#212529",
+        "bgImage": "/assets/image-3_ph.svg"
+      },
+      "id": "970a8a9c-8af0-45b3-ad0b-ccc44c15e03a"
+    },
+    {
+      "note": {
+        "id": "9b33b6ae-1565-485b-a9a7-fe16aece0c5b",
+        "noteTitle": "z",
+        "noteBody": "o",
+        "createdAt": "2024-04-13T11:09:48.714Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#212529",
+        "bgImage": "/assets/image-1_ph.svg"
+      },
+      "id": "9b33b6ae-1565-485b-a9a7-fe16aece0c5b"
+    },
+    {
+      "id": "9d75fc7b-e9f9-43e7-9bb8-115f651ef725",
+      "noteTitle": "q",
+      "noteBody": "u",
+      "createdAt": "2024-04-15T18:16:17.157Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#212529",
+      "bgImage": ""
+    },
+    {
+      "id": "ed502d19-7063-4fac-bf11-885e60dba993",
+      "noteTitle": "a",
+      "noteBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "createdAt": "2024-04-15T18:16:29.623Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#212529",
+      "bgImage": "/assets/image-3.svg"
+    },
+    {
+      "id": "c1dbe75e-f966-4c61-8c1c-4fbb953698bc",
+      "noteTitle": "a",
+      "noteBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo",
+      "createdAt": "2024-04-15T18:22:11.984Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#212529",
+      "bgImage": ""
+    },
+    {
+      "id": "d22dd21e-e01d-4374-b0f7-12fcb7410d61",
+      "noteTitle": "n",
+      "noteBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo",
+      "createdAt": "2024-04-15T18:22:46.754Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#212529",
+      "bgImage": "/assets/image-4.svg"
+    },
+    {
+      "id": "d198dc77-98ad-4c9a-8b2c-5720569ab73a",
+      "noteTitle": "a",
+      "noteBody": "/assets/image-1_ph.svg",
+      "createdAt": "2024-04-15T18:25:00.342Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#212529",
+      "bgImage": ""
+    },
+    {
+      "id": "1ffa71df-8917-4654-9fae-5dec696b410d",
+      "noteTitle": "z",
+      "noteBody": "x",
+      "createdAt": "2024-04-15T18:25:24.970Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#212529",
+      "bgImage": "/assets/image-1_ph.svg"
+    },
+    {
+      "id": "6fb5175b-8ea5-47f2-9f34-ab40224cf09a",
+      "noteTitle": "x",
+      "noteBody": "y",
+      "createdAt": "2024-04-15T18:30:53.247Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#212529",
+      "bgImage": "/assets/image-2_ph.svg"
+    },
+    {
+      "id": "4e90d32f-9a67-43b5-87a7-f707f5ef796f",
+      "noteTitle": "q",
+      "noteBody": "a",
+      "createdAt": "2024-04-15T18:56:27.385Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#2d555e",
+      "bgImage": "/assets/image-4_ph.svg"
+    },
+    {
+      "note": {
+        "id": "99c70d1d-311a-4ef4-aed2-e0152c35442c",
+        "noteTitle": "a",
+        "noteBody": "b",
+        "createdAt": "2024-04-20T12:30:18.485Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#345920",
+        "bgImage": "/assets/image-1_ph.svg"
+      },
+      "id": "99c70d1d-311a-4ef4-aed2-e0152c35442c"
+    }
+  ]
+}

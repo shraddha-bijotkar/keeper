@@ -1,0 +1,17 @@
+.btn-circle {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    //padding: 6px 6px;
+}
+.btn {
+    opacity: 0.5;
+    color: white;
+}
+.btn:hover {
+    background-color: gray;
+}
+.not-allowed {
+    color: darkgray;
+    cursor: not-allowed;
+}

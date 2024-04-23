@@ -1,6 +1,7 @@
-import { Component, TemplateRef, Input, ElementRef, ViewChild, ViewEncapsulation, Output, EventEmitter } from '@angular/core';
-import { NgbDatepickerModule, NgbOffcanvas, OffcanvasDismissReasons, NgbOffcanvasOptions } from '@ng-bootstrap/ng-bootstrap';
+import { Component, Input, ViewEncapsulation, Output, EventEmitter, OnInit } from '@angular/core';
+import { NgbDatepickerModule, NgbOffcanvas, NgbOffcanvasOptions } from '@ng-bootstrap/ng-bootstrap';
 import { SideBarComponent } from '../side-bar/side-bar.component';
+import { FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-nav-bar',
@@ -8,15 +9,23 @@ import { SideBarComponent } from '../side-bar/side-bar.component';
   styleUrls: ['./nav-bar.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
-export class NavBarComponent {
+export class NavBarComponent implements OnInit {
   flag = true;
+  searchForm!: FormGroup;
 
   @Input() containerRef!: HTMLElement;
   @Output() newItemEvent = new EventEmitter<boolean>();
+  @Output() searchEvent = new EventEmitter<string>();
 
   offcanvasOptions: NgbOffcanvasOptions = {};
 
-  constructor(private offcanvasService: NgbOffcanvas) {}
+  constructor(private offcanvasService: NgbOffcanvas, private fb: FormBuilder) {}
+
+  ngOnInit() {
+    this.searchForm = this.fb.group({
+      search: ['']
+    });
+  }
 
   open(flag: boolean) {
     this.addNewItem(flag);
@@ -40,6 +49,15 @@ export class NavBarComponent {
   
   addNewItem(value: boolean) {
     this.newItemEvent.emit(value);
+  }
+
+  searchItem(value: string) {
+    this.searchEvent.emit(value);
+  }
+
+  search() {
+    this.searchForm.get('search')?.value;
+    this.searchItem(this.searchForm.get('search')?.value);
   }
 
 }

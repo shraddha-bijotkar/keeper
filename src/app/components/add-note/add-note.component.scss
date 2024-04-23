@@ -1,0 +1,21 @@
+::placeholder {
+    color: gray;
+    font-weight: bold;
+}
+input:focus {
+    outline:none !important;
+}
+.btn-circle {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 6px 6px;
+}
+.not-allowed {
+    color: gray;
+    cursor: not-allowed;
+}
+.card {
+    background-color: #212529;
+}
+  
