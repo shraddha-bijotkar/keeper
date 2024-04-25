@@ -4,7 +4,7 @@ import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { Notes } from '../models/notes.model';
 
-const jsonServerURL = "http://localhost:3000/notes";
+const jsonServerURL = "https://shraddha-bijotkar.github.io/keeper-json/db.json";
 
 @Injectable({
   providedIn: 'root'

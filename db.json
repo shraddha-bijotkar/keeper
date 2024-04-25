@@ -755,6 +755,18 @@
         "bgImage": "/assets/image-1_ph.svg"
       },
       "id": "99c70d1d-311a-4ef4-aed2-e0152c35442c"
+    },
+    {
+      "id": "c2609648-3d6d-4a41-a3ca-4c003f701393",
+      "noteTitle": "ok",
+      "noteBody": "ok",
+      "createdAt": "2024-04-23T17:10:53.702Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#5c2b29",
+      "bgImage": ""
     }
   ]
 }
