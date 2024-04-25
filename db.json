@@ -21,7 +21,8 @@
         "pinned": false,
         "archived": true,
         "trashed": false,
-        "hover": true
+        "hover": true,
+        "bgImage": "https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-1_ph.svg"
       },
       "id": "2"
     },
