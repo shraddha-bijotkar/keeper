@@ -3,6 +3,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { Notes } from '../models/notes.model';
+import { resType } from '../components/notes/notes.component';
 
 const jsonServerURL = "https://shraddha-bijotkar.github.io/keeper-json/db.json";
 

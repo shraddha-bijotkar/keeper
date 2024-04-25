@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { NotesService } from './notes.service';
 import { Notes } from '../models/notes.model';
+import { resType } from '../components/notes/notes.component';
 
 @Injectable({
   providedIn: 'root'
 })
 export class OperationsService {
-  allNotes: any[] = [];
+  allNotes: resType = {notes: []};
   trashedNotes: Notes[] = [];
   viewNote!: Notes;
   hover!: boolean;
@@ -21,7 +22,7 @@ export class OperationsService {
         return this.allNotes;
     } catch (error) {
         console.error('Error fetching notes', error);
-        return [];
+        return {notes: []};
     }
 }
   // public async fetchAllNotes() {

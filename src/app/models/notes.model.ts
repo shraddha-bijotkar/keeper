@@ -1,4 +1,5 @@
 export interface Notes {
+    note?: Notes
     id: string
     noteTitle: string
     noteBody?: string
