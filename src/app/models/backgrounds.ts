@@ -14,9 +14,9 @@ export enum bgColors {
 
 export enum bgImages {
     i0 = '',
-    i1 = '/assets/image-1_ph.svg',
-    i2 = '/assets/image-2_ph.svg',
-    i3 = '/assets/image-3_ph.svg',
-    i4 = '/assets/image-4_ph.svg',
-    i5 = '/assets/image-5_ph.svg',
+    i1 = 'https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-1_ph.svg',
+    i2 = 'https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-2_ph.svg',
+    i3 = 'https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-3_ph.svg',
+    i4 = 'https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-4_ph.svg',
+    i5 = 'https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-5_ph.svg',
 }

@@ -172,7 +172,7 @@
         "trashed": false,
         "hover": true,
         "bgColor": "#345920",
-        "bgImage": ""
+        "bgImage": "/assets/image-2_ph.svg"
       },
       "id": "7012e055-97a5-4609-a42e-c8dabc4224ea"
     },
@@ -767,6 +767,21 @@
       "hover": false,
       "bgColor": "#5c2b29",
       "bgImage": ""
+    },
+    {
+      "note": {
+        "id": "4e9d164f-ea48-45c1-a0e3-3880ef7167e1",
+        "noteTitle": "a",
+        "noteBody": "b",
+        "createdAt": "2024-04-25T19:00:05.324Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#1e3a5f",
+        "bgImage": ""
+      },
+      "id": "4e9d164f-ea48-45c1-a0e3-3880ef7167e1"
     }
   ]
 }
