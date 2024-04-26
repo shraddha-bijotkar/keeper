@@ -22,7 +22,7 @@
         "archived": true,
         "trashed": false,
         "hover": true,
-        "bgImage": "https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-1_ph.svg"
+        "bgImage": "https://raw.githubusercontent.com/shraddha-bijotkar/keeper/master/src/assets/image-1_ph.svg"
       },
       "id": "2"
     },
@@ -63,7 +63,7 @@
         "trashed": false,
         "hover": true,
         "bgColor": "#5b2245",
-        "bgImage": "https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-3_ph.svg"
+        "bgImage": "/assets/image-1_ph.svg"
       },
       "id": "5"
     },
@@ -173,7 +173,7 @@
         "trashed": false,
         "hover": true,
         "bgColor": "#345920",
-        "bgImage": "https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-2_ph.svg"
+        "bgImage": "https://raw.githubusercontent.com/shraddha-bijotkar/keeper/master/src/assets/image-2_ph.svg"
       },
       "id": "7012e055-97a5-4609-a42e-c8dabc4224ea"
     },
