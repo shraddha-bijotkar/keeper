@@ -63,7 +63,7 @@
         "trashed": false,
         "hover": true,
         "bgColor": "#5b2245",
-        "bgImage": "/assets/image-3_ph.svg"
+        "bgImage": "https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-3_ph.svg"
       },
       "id": "5"
     },
@@ -173,7 +173,7 @@
         "trashed": false,
         "hover": true,
         "bgColor": "#345920",
-        "bgImage": "/assets/image-2_ph.svg"
+        "bgImage": "https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-2_ph.svg"
       },
       "id": "7012e055-97a5-4609-a42e-c8dabc4224ea"
     },
@@ -203,7 +203,7 @@
         "trashed": false,
         "hover": true,
         "bgColor": "#635d19",
-        "bgImage": "/assets/image-3_ph.svg"
+        "bgImage": "https://github.com/shraddha-bijotkar/keeper/blob/master/src/assets/image-3_ph.svg"
       },
       "id": "527f89bc-ca5a-4eca-b7fd-65af2e7271d8"
     },
