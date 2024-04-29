@@ -376,16 +376,19 @@
       "bgImage": ""
     },
     {
-      "id": "69e6a96d-2ad8-4d60-bf73-59e4d328a577",
-      "noteTitle": "last",
-      "noteBody": "last",
-      "createdAt": "2024-04-12T18:41:23.286Z",
-      "pinned": false,
-      "archived": false,
-      "trashed": false,
-      "hover": false,
-      "bgColor": "#614a19",
-      "bgImage": ""
+      "note": {
+        "id": "69e6a96d-2ad8-4d60-bf73-59e4d328a577",
+        "noteTitle": "last",
+        "noteBody": "last",
+        "createdAt": "2024-04-12T18:41:23.286Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#614a19",
+        "bgImage": "/assets/image-1_ph.svg"
+      },
+      "id": "69e6a96d-2ad8-4d60-bf73-59e4d328a577"
     },
     {
       "note": {
@@ -671,16 +674,19 @@
       "bgImage": "https://raw.githubusercontent.com/shraddha-bijotkar/keeper/master/src/assets/image-3_ph.svg"
     },
     {
-      "id": "c1dbe75e-f966-4c61-8c1c-4fbb953698bc",
-      "noteTitle": "a",
-      "noteBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo",
-      "createdAt": "2024-04-15T18:22:11.984Z",
-      "pinned": false,
-      "archived": false,
-      "trashed": false,
-      "hover": false,
-      "bgColor": "#212529",
-      "bgImage": ""
+      "note": {
+        "id": "c1dbe75e-f966-4c61-8c1c-4fbb953698bc",
+        "noteTitle": "a",
+        "noteBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo",
+        "createdAt": "2024-04-15T18:22:11.984Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#345920",
+        "bgImage": ""
+      },
+      "id": "c1dbe75e-f966-4c61-8c1c-4fbb953698bc"
     },
     {
       "id": "d22dd21e-e01d-4374-b0f7-12fcb7410d61",
@@ -695,16 +701,19 @@
       "bgImage": "https://raw.githubusercontent.com/shraddha-bijotkar/keeper/master/src/assets/image-4_ph.svg"
     },
     {
-      "id": "d198dc77-98ad-4c9a-8b2c-5720569ab73a",
-      "noteTitle": "a",
-      "noteBody": "/assets/image-1_ph.svg",
-      "createdAt": "2024-04-15T18:25:00.342Z",
-      "pinned": false,
-      "archived": false,
-      "trashed": false,
-      "hover": false,
-      "bgColor": "#212529",
-      "bgImage": ""
+      "note": {
+        "id": "d198dc77-98ad-4c9a-8b2c-5720569ab73a",
+        "noteTitle": "a",
+        "noteBody": "/assets/image-1_ph.svg",
+        "createdAt": "2024-04-15T18:25:00.342Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#1e3a5f",
+        "bgImage": ""
+      },
+      "id": "d198dc77-98ad-4c9a-8b2c-5720569ab73a"
     },
     {
       "id": "1ffa71df-8917-4654-9fae-5dec696b410d",
@@ -783,6 +792,33 @@
         "bgImage": ""
       },
       "id": "4e9d164f-ea48-45c1-a0e3-3880ef7167e1"
+    },
+    {
+      "id": "1cdb7269-7685-44e3-9248-2c5e60327ebe",
+      "noteTitle": "qu",
+      "noteBody": "uq",
+      "createdAt": "2024-04-26T20:03:25.786Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#1e3a5f",
+      "bgImage": ""
+    },
+    {
+      "note": {
+        "id": "e5878dec-aa61-47d1-9452-8f8e0ea27033",
+        "noteTitle": "a",
+        "noteBody": "q",
+        "createdAt": "2024-04-26T20:03:34.918Z",
+        "pinned": false,
+        "archived": false,
+        "trashed": false,
+        "hover": true,
+        "bgColor": "#442f19",
+        "bgImage": "/assets/image-2_ph.svg"
+      },
+      "id": "e5878dec-aa61-47d1-9452-8f8e0ea27033"
     }
   ]
 }

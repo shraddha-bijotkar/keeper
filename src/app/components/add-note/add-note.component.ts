@@ -79,8 +79,8 @@ export class AddNoteComponent {
 
   setImage(img: string) {
     console.log(img, 'img');
-    this.elementRef.nativeElement.style.backgroundImage = `url(${img})`;
     this.myForm.value['bgImage'] = img;
+    this.elementRef.nativeElement.style.backgroundImage = `url(${img})`;
   }
   
   
