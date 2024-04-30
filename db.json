@@ -62,8 +62,8 @@
         "archived": false,
         "trashed": false,
         "hover": true,
-        "bgColor": "#5b2245",
-        "bgImage": "/assets/image-1_ph.svg"
+        "bgColor": "#2d555e",
+        "bgImage": "/assets/image-2_ph.svg"
       },
       "id": "5"
     },
@@ -783,6 +783,18 @@
         "bgImage": ""
       },
       "id": "4e9d164f-ea48-45c1-a0e3-3880ef7167e1"
+    },
+    {
+      "id": "74f49a8b-1ef5-47e9-b09d-b4e659d4ccec",
+      "noteTitle": "abcd",
+      "noteBody": "ab",
+      "createdAt": "2024-04-29T16:29:02.871Z",
+      "pinned": false,
+      "archived": false,
+      "trashed": false,
+      "hover": false,
+      "bgColor": "#614a19",
+      "bgImage": ""
     }
   ]
 }

@@ -33,7 +33,7 @@ export class AddNoteComponent {
        * the menu and button the condition abbove must close the menu
        */
       if(!this.toggleButton.nativeElement.contains(e.target) && !this.elementRef.nativeElement.contains(e.target)) {
-          this.clickedNew=false;
+          this.clickedNew = false;
       }
   });
   }
@@ -79,8 +79,8 @@ export class AddNoteComponent {
 
   setImage(img: string) {
     console.log(img, 'img');
-    this.myForm.value['bgImage'] = img;
     this.elementRef.nativeElement.style.backgroundImage = `url(${img})`;
+    this.myForm.value['bgImage'] = img;
   }
   
   

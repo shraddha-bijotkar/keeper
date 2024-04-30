@@ -6,7 +6,7 @@
                     <input class="form-control text-white bg-dark border-0" formControlName="noteTitle" type="text" placeholder="Title" aria-label="default input example">
                 </div>
                 
-                    <div class="mb-2" #toggleButton  (click)="clickNew()">
+                    <div class="mb-2" #toggleButton (click)="clickNew()">
                         <input class="form-control text-white bg-dark border-0" formControlName="noteBody" type="text" placeholder="Add note here..." aria-label="default input example">
                     </div>
                     <!-- <button class="btn btn-dark" id="bgColor" type="button"><i class="fa fa-eyedropper fa-lg" aria-hidden="true"></i></button> -->
@@ -24,15 +24,15 @@
                         <button class="btn btn-dark flex-row-reverse" type="submit" (click)="onSubmit(myForm)">Close</button>
                     </div>
                     <div class="d-flex flex-row mt-2">
-                        <ng-container  *ngIf="openColors">
-                            <div class="col"  *ngFor="let color of bgColors | keyvalue">
+                        <ng-container *ngIf="openColors">
+                            <div class="col" *ngFor="let color of bgColors | keyvalue">
                                 <button class="btn btn-dark btn-circle me-2" [ngStyle]="{'background-color': color.key}" (click)="setColor(color.value)"></button>
                             </div>
                         </ng-container>
                     </div> 
                     <div class="d-flex flex-row mt-2">
                         <ng-container *ngIf="openImages">
-                            <div class="col"  *ngFor="let img of bgImages | keyvalue">
+                            <div class="col" *ngFor="let img of bgImages | keyvalue">
                                 <button class="btn btn-dark btn-circle me-2" [ngStyle]="{'background': ' url(' + img.value  + ') no-repeat 0 0', 'background-size': '100%'}" (click)="setImage(img.value)"></button>
                             </div>
                         </ng-container>

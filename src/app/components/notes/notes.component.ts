@@ -65,7 +65,6 @@ export class NotesComponent implements OnInit {
         arrRes = res.notes.filter((x: any) => (x.trashed == false && x.archived == false) || (x.note.trashed == false && x.note.archived == false));
         arrRes = res.notes.map(x => {
             if(x.note) {
-                //console.log(x = x.note);
                 return x = x.note;
             }
             else  return x = x; 
@@ -97,8 +96,7 @@ export class NotesComponent implements OnInit {
       }) });
 
       modalRef.componentInstance.isClicked = true;
-      modalRef.componentInstance.openedNote = note;
-        
+      modalRef.componentInstance.openedNote = note;    
     }
 
     public archieveNote(note: Notes) {
