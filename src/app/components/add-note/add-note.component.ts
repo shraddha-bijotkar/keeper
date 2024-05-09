@@ -1,4 +1,4 @@
-import { Component, SimpleChanges, HostListener, ViewChild, ElementRef, Renderer2, Output, EventEmitter } from '@angular/core';
+import { Component, ViewChild, ElementRef, Renderer2 } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Notes } from 'src/app/models/notes.model';
 import { OperationsService } from 'src/app/services/operations.service';
@@ -30,12 +30,12 @@ export class AddNoteComponent {
        * If we don't check this, all clicks (even on the toggle button) gets into this
        * section which in the result we might never see the menu open!
        * And the menu itself is checked here, and it's where we check just outside of
-       * the menu and button the condition abbove must close the menu
+       * the menu and button the condition above must close the menu
        */
       if(!this.toggleButton.nativeElement.contains(e.target) && !this.elementRef.nativeElement.contains(e.target)) {
           this.clickedNew = false;
       }
-  });
+    });
   }
 
   ngOnInit() {

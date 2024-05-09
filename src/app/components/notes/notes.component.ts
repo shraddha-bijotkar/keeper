@@ -5,9 +5,6 @@ import { OperationsService } from 'src/app/services/operations.service';
 import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { InputComponent } from '../input/input.component';
 import { bgColors, bgImages } from 'src/app/models/backgrounds';
-export interface resType {
-    notes: Notes[],
-}
 
 @Component({
     selector: 'app-notes',
@@ -58,12 +55,12 @@ export class NotesComponent implements OnInit {
     }
 
     public async fetchAllNotes() {
-        let res: resType = await this.opService.fetchAllNotes();
+        let res: Notes[] = await this.opService.fetchAllNotes();
         let arrRes = [];
         //console.log(res.filter((x: any) => x.archived == false || x.note.trashed == false));
-        console.log(res.notes, 'Hey res here!');
-        arrRes = res.notes.filter((x: any) => (x.trashed == false && x.archived == false) || (x.note.trashed == false && x.note.archived == false));
-        arrRes = res.notes.map(x => {
+        console.log(res, 'Hey res here!');
+        arrRes = res.filter((x: any) => (x.trashed == false && x.archived == false) || (x.note.trashed == false && x.note.archived == false));
+        arrRes = res.map(x => {
             if(x.note) {
                 return x = x.note;
             }

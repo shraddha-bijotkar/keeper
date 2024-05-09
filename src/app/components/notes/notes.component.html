@@ -35,7 +35,6 @@
                         <div class="col"  *ngFor="let color of bgColors | keyvalue">
                             <button class="btn btn-dark btn-circle me-2" [ngStyle]="{'background-color': color.key}" (click)="setColor(color.value, note)"></button>
                         </div>
-                        
                     </ng-container>
                     
                 </div>
